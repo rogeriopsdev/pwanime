@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Base</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/meucss.css">
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="/static/css/meu.css">
+</head>
+<body>
+	<nav class=" pt-0 pr-0 pl-0"><!-- Jumbotron início-->
+		<nav class="navbar bg-white navbar-expand fixed-top ">
+			<div class=" container"><!-- Menu-->
+				<ul class=" navbar-nav ">
+					<li>
+						<a href="#" class="nav-link ">
+							<i class="material-icons align-middle" style="">location_city</i>Home
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nav-link"> <i class="material-icons align-middle" style="">contact_phone</i>
+							Ajuda
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nav-link"> <i class="material-icons align-middle" style=" color: ;">import_contacts</i>
+							Blog
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nav-link"> <i class="material-icons align-middle" style="">share</i>
+							Redes Sociais
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nav-link"><i class="material-icons align-middle" style="">local_library</i>
+							Categorias
+						</a>
+					</li>
+				</ul>
+
+
+				<ul class=" navbar-nav ">
+					<a href="#" class="nav-link"><i class="material-icons align-middle" style="">local_library</i>
+						Login
+					</a>
+				</ul>
+
+
+			</div><!-- fim Menu-->
+		</nav>
+		<section>
+			{% block content %}
+
+			{% endblock content %}
+
+		</section>
+
+		
+		<footer class="linha pb-1 pt-1 fixed-bottom mt-5" >
+			<div class="ml-3">
+				<figure>
+					<img src="/static/img/logo.png" alt="" id="logo">
+					<figcaption>
+						<h6>Pov. Santa Teresa Km -5</h6>
+					</figcaption>
+				</figure>
+			</div>
+
+
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous" class="img-fluid"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+	</body>
+	</html>

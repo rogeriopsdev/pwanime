@@ -1,0 +1,60 @@
+h1{
+	
+}
+h2{
+	color: blue;
+}
+#diferente{
+	color: #FF6F59;
+}
+.teste{
+	color: #43AA8B;
+}
+.linha{
+	
+	
+}
+nav{
+	background: #b2b09b;
+}
+footer{
+	background: #030301;
+}
+#lan{
+	
+}
+#dest{
+	background: #ffe74c;
+}
+#addi{
+	
+
+}
+.jumbotron{
+	background-image: url('../img/25animes.jpg');
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	
+	
+
+}
+button.form-group {
+    margin-bottom: 0px;
+
+}
+nav.jumbotron{
+	margin-bottom: 0px;
+}
+.destaque{
+	height:140px ;
+	width: 248px;
+}
+.teste_img{
+	height:680px ;
+	width: 100%;
+}
+#logo{
+	height: 10%;
+	width: 10%;
+}
