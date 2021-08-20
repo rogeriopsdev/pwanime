@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from pwanimeapp.views import base, index, teste
+from pwanimeapp.views import  index, teste
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('base/', base ,name='base'),
+    #path('base/', base ,name='base'),
     path('index/', index ,name='index'),
     path('teste/', teste ,name='teste'),
 ]
