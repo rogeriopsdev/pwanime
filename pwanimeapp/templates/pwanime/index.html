@@ -107,14 +107,15 @@
 
 			</div>
 			<div class="row">	
-				<div class="bg-white col-4">	
+				{% for lancamento  in lancamentos %}
+				<div class="col-4">	
+					<iframe width="360" height="215" src="{{lancamento.link_lancamento}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h6>{{lancamento.nome_lancamento}}</h6>
 
 				</div>
-				<div class="col-4">	
-					<iframe width="360" height="215" src="https://www.youtube.com/embed/IIqkWcx2gNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="bg-white col-4">	
-				</div>
+
+
+				{% endfor %}
 
 			</div>
 
